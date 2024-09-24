@@ -1,0 +1,77 @@
+/* SubNavigation.module.css */
+
+.subNav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 6rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  background-color: white;
+  color: #27272a; /* Zinc-900 */
+}
+
+.subNavMd {
+  padding: 0 1.25rem;
+  max-width: 100%;
+}
+
+.specialItem {
+  display: flex;
+  gap: 0.375rem;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  color: #ef4444; /* Red-500 */
+  min-height: 44px;
+}
+
+.specialItemInner {
+  display: flex;
+  gap: 0.375rem;
+  align-items: center;
+  padding: 0.375rem 0;
+  border-radius: 100px;
+}
+
+.specialIcon {
+  object-fit: contain;
+  aspect-ratio: 1.05;
+  width: 21px;
+}
+
+.navItem {
+  display: flex;
+  gap: 0.375rem;
+  padding: 0.875rem 1.25rem;
+  white-space: nowrap;
+  min-height: 44px;
+}
+
+.navItemActive {
+  background-color: white;
+}
+
+.divider {
+  flex-shrink: 0;
+  width: 1px;
+  height: 2.75rem;
+  background-color: #f3f4f6; /* Neutral-100 */
+}
+
+.newInItem {
+  display: flex;
+  gap: 0.375rem;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  color: black;
+  min-height: 44px;
+  border-left: 1px solid white;
+}
+
+.newInIcon {
+  object-fit: contain;
+  width: 0.75rem; /* 3px */
+  aspect-ratio: 1;
+}

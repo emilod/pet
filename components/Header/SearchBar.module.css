@@ -1,0 +1,31 @@
+/* SearchBar.module.css */
+
+.searchBar {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.875rem 0.875rem 0.875rem 0.875rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1;
+  background-color: white;
+  min-width: 240px;
+  border-radius: 10000px;
+  color: #27272a; /* Zinc-900 */
+  width: 391px;
+}
+
+.searchBarText {
+  flex: 1;
+  flex-shrink: 1;
+  margin: auto 0;
+  flex-basis: 0;
+}
+
+.searchBarIcon {
+  object-fit: contain;
+  flex-shrink: 0;
+  width: 1rem; /* 4px */
+  aspect-ratio: 1;
+  margin: auto 0;
+}

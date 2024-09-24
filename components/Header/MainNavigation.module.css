@@ -1,0 +1,50 @@
+/* MainNavigation.module.css */
+
+.nav {
+  display: flex;
+  align-items: center;
+  min-width: 240px;
+}
+
+.navMd {
+  max-width: 100%;
+}
+
+.navItem {
+  padding: 1.25rem;
+  margin: auto 0;
+  gap: 0.625rem;
+}
+
+.navItemActive {
+  background-color: white;
+}
+
+.navCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin: auto 0;
+  gap: 0.625rem;
+  white-space: nowrap;
+}
+
+.aiButton {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  background-color: #fbbf24; /* Amber-400 */
+  border-radius: 100px;
+}
+
+.aiIcon {
+  object-fit: contain;
+  aspect-ratio: 1;
+  width: 13px;
+}
+
+.aiText {
+  margin: auto 0;
+}

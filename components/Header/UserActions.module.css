@@ -1,0 +1,61 @@
+/* UserActions.module.css */
+
+.userActions {
+  display: flex;
+  position: relative;
+  gap: 0.875rem; /* 3.5 */
+  align-items: flex-start;
+  margin: auto 0;
+}
+
+.iconContainer {
+  display: flex;
+  position: relative;
+  z-index: 0;
+  gap: 0.5rem;
+  align-items: center;
+  margin: auto 0;
+}
+
+.icon {
+  display: flex;
+  gap: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem; /* 10px */
+  height: 2.5rem; /* 10px */
+  background-color: #f59e0b; /* Amber-400 */
+  min-height: 40px;
+  border-radius: 50px;
+}
+
+.iconImage {
+  object-fit: contain;
+  flex-shrink: 0;
+  width: 1.25rem; /* 5px */
+  aspect-ratio: 0.91;
+}
+
+.iconImageRound {
+  object-fit: contain;
+  aspect-ratio: 1;
+  width: 26px;
+}
+
+.cartItemCount {
+  position: absolute;
+  top: -0.25rem; /* -1px */
+  right: -0.4375rem; /* -7px */
+  padding: 0 0.125rem; /* 0.5 */
+  width: 1rem; /* 4 */
+  height: 1rem; /* 4 */
+  font-size: 0.75rem; /* xs */
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  color: white;
+  background-color: #ef4444; /* Red-500 */
+  border-radius: 10000px;
+  min-height: 16px;
+  white-space: nowrap;
+}
