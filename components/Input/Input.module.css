@@ -1,0 +1,19 @@
+.xs {
+  height: var(--input-size-xs-height);
+}
+
+.sm {
+  height: var(--input-size-sm-height);
+}
+
+.md {
+  height: var(--input-size-md-height);
+}
+
+.lg {
+  height: var(--input-size-lg-height);
+}
+
+.root {
+  background-color: var(--color-grayscale-white);
+}

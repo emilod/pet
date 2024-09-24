@@ -1,0 +1,23 @@
+.active {
+  background: #191919 !important;
+  color: #fff;
+  border-color: transparent !important;
+  border-radius: 500px;
+}
+
+.item {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+  text-align: center;
+  color: #191919;
+
+  &:hover {
+    background: #ffc226;
+    color: #191919;
+  }
+}
+
+.arrow {
+  border: none;
+}

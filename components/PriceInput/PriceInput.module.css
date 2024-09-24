@@ -1,0 +1,27 @@
+.inputs_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 219px;
+}
+
+.input {
+  width: 96px;
+  height: 36px;
+  border: 1px solid #d0d0d0;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.input_inner {
+  background-color: orange;
+}
+
+.input_line {
+  width: 14px;
+  height: 0;
+  border: 1px solid #5b5b5b;
+  margin-left: 8px;
+  margin-right: 8px;
+}
