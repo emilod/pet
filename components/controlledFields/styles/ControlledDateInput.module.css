@@ -1,0 +1,37 @@
+.dropdownIcon {
+  color: var(--color-text-field-placeholder);
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.dateBox {
+  height: auto;
+  cursor: pointer;
+}
+
+.dateInput {
+  &::-webkit-date-and-time-value {
+    text-align: left;
+  }
+}
+
+.dateLabel {
+  padding-bottom: 12px;
+}
+
+.suffix {
+  border-left: 1px solid var(--color-interactive-action-field);
+  padding-left: 8px;
+}
+
+@media (--mobile) {
+  .dropdownIcon {
+    width: 15px;
+    height: 15px;
+  }
+
+  .suffix {
+    padding-left: 4px;
+  }
+}

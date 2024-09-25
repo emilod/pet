@@ -1,0 +1,14 @@
+.filterButton.filterButtonGhost {
+  font-family: var(--typography-body-font-family-stack);
+  color: var(--color-text-primary);
+  padding: 0;
+}
+
+.filterButton .icon {
+  width: 24px;
+  height: 24px;
+}
+
+.label {
+  min-width: 68px;
+}

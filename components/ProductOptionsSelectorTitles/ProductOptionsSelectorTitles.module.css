@@ -1,0 +1,84 @@
+.header {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 8px;
+  align-items: center;
+  width: 100%;
+}
+
+.headerTitle {
+  flex-grow: 1;
+  color: var(--color-text-primary);
+}
+
+.headerInfo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.sizeGuide {
+  font-weight: var(--typography-body-regular-font-weight);
+  font-size: var(--typography-label-font-size);
+  line-height: var(--typography-label-line-height);
+}
+
+.radioInput__wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-bottom: 8px;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-block-start: unset;
+  padding-inline-start: unset;
+  padding-inline-end: unset;
+  padding-block-end: unset;
+  min-inline-size: min-content;
+  border: none;
+}
+
+.radioInput {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  color: var(--color-text-primary);
+}
+
+.radioDisabled {
+  opacity: 0.45;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border: 1px solid;
+  box-sizing: border-box;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.2s var(--easing-focus);
+
+  &.disabledLabel {
+    cursor: not-allowed;
+  }
+}
+
+.radioInput:not(:checked) ~ .label {
+  border-color: var(--color-border-line-primary);
+}
+
+.radioInput:checked ~ .label {
+  border-color: var(--color-interactive-action-primary);
+}
+
+.radioInput:focus-visible ~ .label {
+  border-color: var(--color-text-primary);
+}
+
+.helpText {
+  color: var(--color-text-accent-01);
+}
