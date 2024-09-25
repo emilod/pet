@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  width: 223px;
+  margin-bottom: 12px;
+}
+
+.label {
+  font-size: 14px;
+  line-height: 19.6px;
+  text-align: left;
+  color: #5b5b5b;
+}
+
+.label_checked {
+  color: #191919;
+}
+
+.count {
+  font-size: 13px;
+  line-height: 18.2px;
+  color: #5b5b5b;
+}
+
+.label_wrapper {
+  display: flex;
+}

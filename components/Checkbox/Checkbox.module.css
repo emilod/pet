@@ -1,0 +1,45 @@
+.checked_icon {
+  filter: unset;
+  color: rgb(25, 25, 25);
+  width: 14px;
+  height: 14px;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  stroke-width: 3px;
+}
+
+.label {
+  font-weight: 400;
+  color: var(--color-text-action-primary);
+}
+
+.checked {
+  .input:focus + span {
+    border: none;
+  }
+}
+
+.disabled {
+  opacity: unset;
+
+  .input + span {
+    border: none;
+  }
+
+  .label {
+    opacity: 0.5;
+  }
+}
+
+.box {
+  background-color: white;
+}
+
+.content {
+  padding-left: 0;
+}
+
+.root {
+  padding: 0 !important;
+}

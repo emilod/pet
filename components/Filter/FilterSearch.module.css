@@ -1,0 +1,48 @@
+.wrapper {
+  width: 250px;
+}
+
+.icon {
+  color: #191919;
+}
+
+.accordionDefault {
+  border: none;
+
+  [data-accordion-control]:hover {
+    background-color: unset;
+  }
+}
+
+.accordionTitle {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19.6px;
+  color: #191919;
+}
+
+.searchInput {
+  height: 36px !important;
+  min-height: 36px;
+  padding-left: 8px !important;
+  border-radius: 4px;
+  border: 1px solid #ebebeb !important;
+
+  & input::placeholder {
+    color: #8f8f8f;
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+}
+
+.inputSuffix {
+  color: #000;
+
+  svg {
+    stroke-width: 2px;
+  }
+}
+
+.filterItems {
+  margin-top: 12px;
+}

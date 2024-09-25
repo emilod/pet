@@ -1,0 +1,19 @@
+.switch {
+  background: #BBBBBB;
+  width: 29px;
+  height: 19px;
+  border-radius: 50px;
+}
+
+.checked {
+  background: #FFC226;
+
+  .dot {
+    margin-left: -2px;
+  }
+}
+
+.dot {
+ top: 2px;
+ left: 2px;
+}

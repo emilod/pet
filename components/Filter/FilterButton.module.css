@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  width: 375px;
+}
+
+.root {
+  padding: 8px 0px;
+  gap: 10px;
+  border-radius: 500px;
+  border: 1px;
+  opacity: 0px;
+
+  min-width: 167px;
+  height: 40px;
+}
+
+.secondary {
+  background-color: #fff !important;
+  color: #191919 !important;
+
+  border: 1px solid #191919 !important;
+
+  &:hover {
+    background-color: #191919 !important;
+    color: #fff !important;
+
+    border: #fff !important;
+  }
+}
