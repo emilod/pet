@@ -1,0 +1,31 @@
+.wrapper {
+  display: block;
+}
+
+.labelStyle {
+  margin-bottom: 8px;
+}
+
+.swatchListHeading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.swatchLabel,
+.swatchLabel:focus {
+  outline: none;
+}
+
+.hintIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  svg {
+    width: 1em;
+    height: 1em;
+  }
+}

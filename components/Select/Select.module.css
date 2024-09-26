@@ -1,0 +1,55 @@
+.option_hover::before,
+.option_selected::before {
+  background: inherit !important;
+}
+
+.focused {
+  border-color: var(--color-text-action-primary);
+}
+
+.notFound {
+  cursor: pointer;
+  white-space: initial;
+  padding: 6px 12px;
+  border-radius: 10px;
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-action-primary);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.option_hidden {
+  display: none;
+}
+
+.option {
+  strong {
+    font-weight: 600;
+  }
+}
+
+.list {
+  max-height: 150px;
+  overflow-y: auto;
+  overflow-anchor: auto !important;
+
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: var(--color-border-line-primary);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: var(--color-brand-primary);
+  }
+
+  &:has(span:is([hidden])) {
+    display: none;
+  }
+
+  &:has(li:not(:is([hidden]))) {
+    display: block;
+  }
+}

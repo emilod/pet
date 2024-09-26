@@ -1,0 +1,11 @@
+.button {
+  width: 50px;
+  border-radius: 2px;
+  min-width: 0;
+  padding: 0;
+
+  svg {
+    width: 18px;
+    height: 18px;
+  }
+}

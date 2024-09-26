@@ -1,0 +1,12 @@
+.title {
+  color: #000;
+}
+
+.accordion_item_header {
+  border: 0 none;
+  padding: 12px 0;
+}
+
+.accordion_content_inner {
+  padding: 0 0 12px;
+}

@@ -1,0 +1,27 @@
+.wrapper {
+  display: block;
+  width: 100%;
+}
+
+.label {
+  margin-right: 5px;
+}
+
+.wrapperLabel {
+  margin-bottom: 10px;
+  font-size: 14px;
+
+  svg {
+    width: 1em;
+    height: 1em;
+  }
+}
+
+.option {
+  display: flex;
+  justify-content: space-between;
+
+  > *:nth-child(2) {
+    color: var(--color-text-secondary);
+  }
+}

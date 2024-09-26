@@ -1,0 +1,119 @@
+.swatch {
+  box-sizing: border-box;
+  background: none repeat scroll 0 0 #fff;
+  border: none;
+  color: white;
+  border-spacing: 0;
+  transition: all var(--transition-duration-1) var(--transition-timing-function-linear);
+
+  &:not(.disabled) {
+    cursor: pointer;
+  }
+}
+
+.swatchType_text {
+  background: transparent;
+  border: 1px solid #ccc;
+
+  &:not(.disabled) {
+    &:hover,
+    &:focus,
+    &.swatchSelected {
+      border-color: blue;
+    }
+  }
+
+  > span {
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+  }
+}
+
+.swatchType_color {
+  position: relative;
+  border: 2px solid transparent;
+  padding: 2px;
+  margin-right: 1px;
+  margin-left: 1px;
+
+  &:not(.disabled) {
+    &:hover,
+    &:focus,
+    &.swatchSelected {
+      border-color: var(--color-grayscale-white);
+      box-shadow: 0 0 0 1px var(--color-interactive-action-primary);
+    }
+  }
+
+  span {
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: var(--swatch-bg);
+    border: 0.5px solid var(--color-text-accent-01);
+    z-index: 1;
+  }
+
+  span:not(.swatchInner) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 0;
+    text-indent: -9999px;
+    z-index: 2;
+  }
+}
+
+.swatchShape_rounded {
+  border-radius: 4px;
+
+  span {
+    border-radius: inherit;
+  }
+}
+
+.swatchShape_square {
+  border-radius: 0;
+
+  span {
+    border-radius: inherit;
+  }
+}
+
+.swatchShape_round {
+  border-radius: 25px;
+
+  span {
+    border-radius: inherit;
+  }
+}
+
+.swatchSize_xs {
+  min-width: 26px;
+  height: 26px;
+  font-size: 10px;
+}
+
+.swatchSize_sm {
+  min-width: 31px;
+  height: 31px;
+  font-size: 12px;
+}
+
+.swatchSize_md {
+  min-width: 40px;
+  height: 40px;
+  font-size: 12px;
+}
+
+.swatchSize_lg {
+  min-width: 46px;
+  height: 46px;
+  font-size: 14px;
+}

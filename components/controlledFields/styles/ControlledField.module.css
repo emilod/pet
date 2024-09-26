@@ -1,0 +1,25 @@
+.errorWrapper {
+  gap: 6px;
+}
+
+.error {
+  font-family: var(--typography-body-font-family-stack);
+  font-size: 12px;
+  line-height: 120%;
+  color: var(--color-state-critical);
+}
+
+.label {
+  font-size: var(--typography-body-regular-font-size);
+  line-height: var(--typography-body-regular-line-height);
+  letter-spacing: 0.005em;
+  color: var(--color-text-field-placeholder);
+}
+
+.input {
+  margin-bottom: 16px;
+}
+
+.input:last-child {
+  margin-bottom: 0;
+}

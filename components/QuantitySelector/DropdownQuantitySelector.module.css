@@ -1,0 +1,29 @@
+.dropdown_select {
+  min-height: 31px;
+  width: 100%;
+  letter-spacing: 0.005em;
+}
+
+.option_selected {
+  overflow: visible;
+
+  &::before {
+    position: absolute;
+    content: '';
+    left: calc(var(--select-popup-group-title-padding-top) * -1);
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--color-interactive-action-primary);
+    border-radius: 0 3px 3px 0;
+    margin-right: 3px;
+  }
+}
+
+.option_hover {
+  &:not(.option_wrapper) {
+    &::before {
+      background: transparent;
+    }
+  }
+}
